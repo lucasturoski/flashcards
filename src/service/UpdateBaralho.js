@@ -9,4 +9,5 @@ export default function updateBaralho(id, newinfo) {
     }
 
     baralhos[indice].titulo = newinfo;
+    return
 }
