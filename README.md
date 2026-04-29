@@ -29,3 +29,7 @@ Em desenvolvimento
 ## Objetivo
 
 Facilitar o aprendizado através de revisões simples, constantes e aleatorizadas.
+
+## Integrantes
+
+João Francisco Mayer Agottani (https://github.com/AttJF)
