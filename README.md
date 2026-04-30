@@ -29,4 +29,7 @@ Facilitar o aprendizado através de revisões simples, constantes e aleatorizada
 ## Integrantes
 
 João Francisco Mayer Agottani (https://github.com/AttJF)
+
 Lucas Turoski (https://github.com/lucasturoski)
+
+Yasmin Freitas Rodrigues (https://github.com/Yasmin-maker-05)
