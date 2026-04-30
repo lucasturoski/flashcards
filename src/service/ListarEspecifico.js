@@ -1,7 +1,7 @@
-import baralhos from "../data/baralho";
-import flashcards from "../data/flashcards";
+import baralhos from "../data/baralho.js";
+import flashcards from "../data/flashcards.js";
 
-function ListarFlashCardsEspecíficos(ID) {
+function ListarFlashCardsEspecificos(ID) {
     let control = 0
     for (let i = 0; i < flashcards.length; i++) {
         if (ID === flashcards[i].idBaralho) {
@@ -15,4 +15,4 @@ function ListarFlashCardsEspecíficos(ID) {
     return
 }
 
-export default ListarFlashCardsEspecíficos
+export default ListarFlashCardsEspecificos

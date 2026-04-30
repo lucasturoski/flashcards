@@ -1,4 +1,4 @@
-import flashcards from "../data/flashcards";
+import flashcards from "../data/flashcards.js";
 
 function ListarFlashCards() {
     if (flashcards.length === 0) {
