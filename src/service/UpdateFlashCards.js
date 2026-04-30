@@ -1,6 +1,6 @@
 import flashcards from "../data/flashcards.js";
 
-export default function updateBaralho(id, quest, aswenr) {
+export default function updateFlashCards(id, quest, aswenr) {
     const indice = flashcards.findIndex(f => f.id === id);
 
     if (indice === -1) {

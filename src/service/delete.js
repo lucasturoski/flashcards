@@ -1,7 +1,7 @@
 import baralhos from "../data/baralho.js";
 import flashcards from "../data/flashcards.js";
 import removerFlash from "./deleteFC.js";
-function removerBaralho ( id){
+function removerBaralho (id){
     const indice = baralhos.findIndex((baralhos) => baralhos.id === id)
 
     for(let i = 0; i < flashcards.length; i++){

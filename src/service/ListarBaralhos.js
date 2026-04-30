@@ -1,4 +1,4 @@
-import baralhos from "../data/baralho";
+import baralhos from "../data/baralho.js";
 
 function ListarBaralhos() {
     if (baralhos.length === 0) {
