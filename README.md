@@ -20,11 +20,7 @@ O sistema será um CRUD (criar, ler, atualizar e deletar) feito no terminal.
 
 Não será usado um banco de dados formal. Os dados serão armazenados de forma simulada (mock), apenas para fins de aprendizado e testes.
 
-Tudo será feito via linha de comando, de forma simples e direta.
-
-## Status
-
-Em desenvolvimento
+Tudo foi feito via linha de comando, de forma simples e direta.
 
 ## Objetivo
 
@@ -33,3 +29,4 @@ Facilitar o aprendizado através de revisões simples, constantes e aleatorizada
 ## Integrantes
 
 João Francisco Mayer Agottani (https://github.com/AttJF)
+Lucas Turoski (https://github.com/lucasturoski)
