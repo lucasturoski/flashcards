@@ -6,7 +6,7 @@ function ListarFlashCards() {
         return
     }
     console.log(flashcards)
-    return
+    return flashcards
 }
 
 export default ListarFlashCards

@@ -1,6 +1,10 @@
 import baralhos from "../data/baralho.js";
 
-function CreateBaralho(NovoBaralho) {
+function CreateBaralho(titulo) {
+    let NovoBaralho ={
+        titulo : titulo,
+        id : 0
+    }
     if (baralhos.lenght > 0) {
         let ultimoBaralho = baralhos[baralhos.lenght - 1];
         NovoBaralho.id = ultimoBaralho.id + 1
@@ -9,7 +13,7 @@ function CreateBaralho(NovoBaralho) {
     }
 
     baralhos.push(NovoBaralho);
-    return
+    return {data : NovoBaralho}
 }
 
 export default CreateBaralho
