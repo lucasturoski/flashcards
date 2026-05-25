@@ -5,9 +5,9 @@ export default function updateBaralho(id, newinfo) {
 
     if (indice === -1) {
         console.log("Baralho not found");
-        return;
+        return "Baralho not found";
     }
 
     baralhos[indice].titulo = newinfo;
-    return
+    return "Baralho updated"
 }

@@ -67,6 +67,15 @@ router.delete("/baralho",(req,res)=>{
     })
 })
 
+router.put("/baralho",(req,res)=>{
+    const id = req.body.id
+    const newinfo = req.body.newinfo
+    const message = updateBaralho(id,newinfo)
+    res.status(200).json({
+        message : message
+    })
+})
+
 router.get("/flashcard", (req,res)=> {
     const resultado = ListarFlashCards()
 
